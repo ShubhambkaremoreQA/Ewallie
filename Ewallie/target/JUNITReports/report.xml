@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="128.638" tests="3" skipped="0" failures="3" errors="0">
+<testcase classname="Ewallie Customer SignUP" name="Signup Customer" time="64.418">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=123.0.6312.87)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_401'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f428a46e05846f984ddb7f200d7d862d, sendKeysToElement {id=f.A1D02CA450ACEBF701F9EA6ECB96BC34.d.5567E0D6D80204D521AA6DA5B41A1531.e.1377, value=[Ljava.lang.CharSequence;@69c6161d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: /var/folders/sq/gx__p36524b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50966/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f428a46e05846f984ddb7f200d7d862d)] -&gt; xpath: //input[@id='signup_otp']]
+Session ID: f428a46e05846f984ddb7f200d7d862d">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.87)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_401'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f428a46e05846f984ddb7f200d7d862d, sendKeysToElement {id=f.A1D02CA450ACEBF701F9EA6ECB96BC34.d.5567E0D6D80204D521AA6DA5B41A1531.e.1377, value=[Ljava.lang.CharSequence;@69c6161d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: /var/folders/sq/gx__p36524b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50966}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50966/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (f428a46e05846f984ddb7f200d7d862d)] -> xpath: //input[@id='signup_otp']]
+Session ID: f428a46e05846f984ddb7f200d7d862d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at StepDefinitions.SignupStepdefination.customer_enters_the_received_otp_on_the_registred_mobile_number(SignupStepdefination.java:58)
+	at ✽.Customer enters the received OTP On the Registred Mobile number(file:///Users/ulistech/UlisWorkspace/Ewallie/src/test/resources/Features/SignupCustomer.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Customer is on the Home Page..........................................passed
+When Customer clicks on SignUp/Login........................................passed
+Then Customer enter the Mobile no. to Register with.........................passed
+And Customer clicks on Proceed button.......................................passed
+Then Customer enters the received OTP On the Registred Mobile number........failed
+Then Customer Checks the termsandcondition and click on signup..............skipped
+Then Customer will land on the Dashboard and user logout....................skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="" time="26.203">
+<failure type="org.openqa.selenium.ElementNotInteractableException" message="element not interactable
+  (Session info: chrome=123.0.6312.87)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_401'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76b4bc4b91d8e36625d902e89be2c830, sendKeysToElement {id=f.4A3B57EC1D93B286582C6C0B1262D3D2.d.7D69BA39EC0F022E7A4CB6F805BEF161.e.1366, value=[Ljava.lang.CharSequence;@783efb48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: /var/folders/sq/gx__p36524b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51015/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (76b4bc4b91d8e36625d902e89be2c830)] -&gt; id: mobile]
+Session ID: 76b4bc4b91d8e36625d902e89be2c830">
+<![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=123.0.6312.87)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '1.8.0_401'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76b4bc4b91d8e36625d902e89be2c830, sendKeysToElement {id=f.4A3B57EC1D93B286582C6C0B1262D3D2.d.7D69BA39EC0F022E7A4CB6F805BEF161.e.1366, value=[Ljava.lang.CharSequence;@783efb48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.87, chrome: {chromedriverVersion: 122.0.6261.111 (9d4c1072da6..., userDataDir: /var/folders/sq/gx__p36524b...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51015/devtoo..., se:cdpVersion: 123.0.6312.87, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on mac (76b4bc4b91d8e36625d902e89be2c830)] -> id: mobile]
+Session ID: 76b4bc4b91d8e36625d902e89be2c830
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at StepDefinitions.eKYCStepdefination.customer_entres_registred_mobile_number_and_click_on_procced_button(eKYCStepdefination.java:42)
+	at ✽.Customer Entres Registred Mobile Number and click on Procced button(file:///Users/ulistech/UlisWorkspace/Ewallie/src/test/resources/Features/eKYCBoarding.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Customer is on Login Page and Signing In..............................passed
+When Customer Entres Registred Mobile Number and click on Procced button....failed
+Then Customer enter the reccieved OTP and click on login buttom.............skipped
+Then Customer click on My profile and then clicks on Complete your eKYC.....skipped
+Then The customer fills all the. Mandatory field and click on the Proceed button.skipped
+Then Customer Upload his EID and Click on Proceed button....................skipped
+Then Customer capture its selfie and click on submit button.................skipped
+Then Customer eKYC status changes from Incomplete to Advanced Resident......skipped
+]]></system-out>
+</testcase>
+<testcase classname="" name="" time="37.669">
+<failure type="org.junit.ComparisonFailure" message="Status is Pending Before Approval expected:&lt;[Pending]&gt; but was:&lt;[Approved]&gt;">
+<![CDATA[org.junit.ComparisonFailure: Status is Pending Before Approval expected:<[Pending]> but was:<[Approved]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at StepDefinitions.eKYCApprovalStepdefination.maker_is_redirected_to_customer_apporval_page_and_view_all_the_details_wrt_to_customer(eKYCApprovalStepdefination.java:82)
+	at ✽.Maker is redirected to Customer Apporval Page and View all the details wrt to customer(file:///Users/ulistech/UlisWorkspace/Ewallie/src/test/resources/Features/eKYCapprovalprocess.feature:12)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Maker is on Login Page................................................passed
+When Maker login with Username and Password.................................passed
+And Maker clicks on Sign me In..............................................passed
+Then Maker clicks on the notification Icon..................................passed
+And Maker Checks for the Pending eKYC request and Click on the Notification.passed
+Then Maker is redirected to Customer Apporval Page and View all the details wrt to customer.failed
+Then The maker will accept the request if all requirements are met accordingly..skipped
+And Maker select the Industry ISIC Code of Customer and click on Approve....skipped
+Then Clicking on notfication the Maker Status has changed from Pending to Approved.skipped
+And Maker Logout clicking on Profile........................................skipped
+Then Checker Login with the Username and Password and click on Sign me in...skipped
+Then Checker will be landed on dashboard and clicks on notification.........skipped
+And Select the Pending Approval Request.....................................skipped
+Then Checker is redirected to customer Approval and click on Accept Request.skipped
+And Checker Select Industry ISIC Code and click on approve or deny..........skipped
+Then Alert Popup is displayed and click on OK...............................skipped
+Then Checker is redirected to customer approval table and now the final status is changed to Approved for the concer customer.skipped
+And Checker clicks on Profile and Logout....................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
